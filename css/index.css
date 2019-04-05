@@ -96,6 +96,58 @@
     width:100%;
 }
 
+#background{
+    position: fixed;
+    z-index: -1;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+
+#canvas-container {
+	/* background: #000 url(bg.jpg); */
+	position: fixed;
+	background-image: url('http://212.64.2.48:2019/cathy/3.jpg');
+	top:0;
+	left:0;
+	right:0;
+    bottom:0;
+    z-index: 2;
+
+  /* height: 400px;
+	left: 50%;
+	margin: -200px 0 0 -300px;
+	position: absolute;
+	top: 50%;
+  width: 600px; */
+}
+
+#skyline {
+	bottom: 0;
+	height: 135px;
+	left: 0;
+    position: fixed;
+	width: 100%;
+}
+
+#mountains1 {
+	bottom: 0;
+	height: 200px;
+	left: 0;
+    position: fixed;
+	width: 100%;
+}
+
+#mountains2 {
+	bottom: 0;
+	height: 250px;
+	left: 0;
+    position: fixed;
+	width: 100%;
+}
+
+
 .pic{
     overflow: hidden;
     border-radius: 4px;
@@ -113,6 +165,7 @@
     cursor: pointer;
     -webkit-background-size: 600px;
     background-size: 600px;
+    /* z-index: 3; */
 }
 
 .pic:hover{
@@ -121,26 +174,6 @@
     box-shadow: 0 2px 8px  rgba(10,10,10,.8);
 }
 
-#pic1{
-    background-image: url("http://212.64.2.48:2019/cathy/2.jpg");
-}
-#pic2{
-    background-image: url("http://212.64.2.48:2019/cathy/3.jpg");
-}
-
-#pic3{
-    background-image: url("http://212.64.2.48:2019/cathy/4.jpg");
-}
-
-#pic4{
-    height:900px;
-    background-image: url("http://212.64.2.48:2019/cathy/1.jpg");
-}
-
-#pic5{
-    height:800px;
-    background-image: url("http://212.64.2.48:2019/cathy/5.jpg");
-}
 header{
 	font-family: sans-serif;
     display: none;
