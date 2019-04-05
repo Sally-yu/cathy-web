@@ -165,7 +165,7 @@
     cursor: pointer;
     -webkit-background-size: 600px;
     background-size: 600px;
-    /* z-index: 3; */
+    z-index: 3;
 }
 
 .pic:hover{
