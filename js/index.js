@@ -16,10 +16,18 @@ $(document).ready(function(){
     $('#pic3').css('background-image',"url('http://212.64.2.48:2019/cathy/4.jpg')");
     $('#pic4').css('background-image',"url('http://212.64.2.48:2019/cathy/5.jpg')");
     $('#pic5').css('background-image',"url('http://212.64.2.48:2019/cathy/1.jpg')");
+    $('#pic6').css('background-image',"url('http://212.64.2.48:2019/cathy/6.jpg')");
+    $('#pic7').css('background-image',"url('http://212.64.2.48:2019/cathy/7.jpg')");
+    $('#pic8').css('background-image',"url('http://212.64.2.48:2019/cathy/8.jpg')");
+    $('#pic9').css('background-image',"url('http://212.64.2.48:2019/cathy/9.jpg')");
+    $('#pic10').css('background-image',"url('http://212.64.2.48:2019/cathy/10.jpg')");
 
     //竖版图片特殊高度
     $('#pic4').css('height','800px');
     $('#pic5').css('height','900px');
+    $('#pic6').css('height','900px');
+    $('#pic7').css('height','900px');
+    $('#pic8').css('height','900px');
 });
 
 //页面所有内容加载完，主要缓冲图片
